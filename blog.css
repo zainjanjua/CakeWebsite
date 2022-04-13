@@ -1,0 +1,674 @@
+body {
+  background-color: #0a0a0a;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poiret One", cursive;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+}
+.center-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* HOME PAGE */
+/* header */
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar .toggler-btn .fas {
+  color: #fff;
+}
+.media-link {
+  display: inline-block;
+}
+
+.links-media {
+  padding: 10px;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.links-media:hover {
+  color: #e5bf4a;
+  transform: rotateY(180deg);
+}
+
+.logo-head a {
+  text-decoration: none;
+}
+
+.col-heading {
+  color: #e5bf4a;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 40px;
+}
+
+.btn {
+  border: 1px solid #e5bf4a;
+  border-radius: 1px;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+
+.contact {
+  border-color: #e5bf4a;
+  color: #e5bf4a;
+  background-color: #0a0a0a;
+}
+
+.contact:hover {
+  background-color: #e5bf4a;
+  color: white;
+}
+
+/* navbar */
+.custom-navbar-ui {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-link {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white !important;
+  padding: 20px 0;
+  margin: 0 20px;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #e5bf4a;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #e5bf4a;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+/* header */
+
+.header-heading {
+  font-size: 70px;
+  font-weight: bolder;
+
+  padding-top: 100px;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.row {
+  margin: 0;
+  padding: 0px;
+}
+
+/* blog posts */
+.custom-col-blog {
+  padding: 10px 30px 30px 60px;
+}
+
+.blog-1 {
+  padding-top: 20px;
+}
+.blog-2,
+.blog-3 {
+  padding-top: 40px;
+}
+
+.blog-info {
+  padding-top: 30px;
+  display: flex;
+}
+
+.blog-info-p {
+  display: flex;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: white;
+}
+
+.recipe-container {
+  background-color: #e5bf4a;
+  width: 80px;
+  height: 20px;
+}
+
+.recipe-para {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: white;
+}
+
+.space {
+  padding-left: 20px;
+}
+
+.blog-info-2-h2 {
+  padding-top: 20px;
+  font-family: "Poiret One", cursive !important;
+  color: #e5bf4a;
+  font-size: 48px;
+  font-size: italic;
+  line-height: 57.6px;
+  text-align: left;
+}
+
+.blog-info-2-p2 {
+  padding-top: 20px;
+  font-size: 16px;
+  color: white;
+  line-height: 28px;
+  text-align: left;
+}
+
+.read-more a {
+  text-decoration-color: #e5bf4a;
+}
+
+.read-more-span {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Poiret One", cursive;
+  color: #e5bf4a;
+}
+
+.custom-below-bar {
+  padding-top: 30px;
+}
+.page-no {
+  font-size: 18px;
+  color: #e5bf4a !important;
+  text-decoration: none;
+}
+
+.fa-right {
+  color: #e5bf4a;
+}
+
+/* col 2 */
+
+.custom-col-category {
+  padding: 10px 50px 0px 50px;
+}
+.h5-category {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #e5bf4a;
+}
+
+.li-p {
+  text-transform: capitalize;
+  list-style: none;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+
+.span-no {
+  font-size: 16px;
+  line-height: 36px;
+  text-align: right;
+  padding-left: 300px;
+  font-family: "Jost", sans-serif;
+  color: #e5bf4a;
+}
+
+.newsletter {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.newsletter-h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #e5bf4a;
+}
+
+.newsletter-p {
+  font-size: 16px;
+  line-height: 36px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+
+.input-form {
+  text-align: left;
+  padding: 15px;
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  background-color: black;
+  border: 1px solid white;
+  font-family: "Jost", sans-serif;
+  outline: none;
+  color: white;
+}
+
+.custom-form-check-input {
+  background-color: #e5bf4a !important;
+}
+
+.newsletter-button {
+  padding-top: 30px;
+}
+
+.btn1 {
+  border: 1px solid #e5bf4a;
+  border-radius: 1px;
+  color: white;
+  padding: 13px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+}
+
+.ordernow {
+  border-color: #e5bf4a;
+  color: #0a0a0a;
+  background-color: #e5bf4a;
+}
+
+.ordernow:hover {
+  background-color: #0a0a0a;
+  color: #e5bf4a;
+}
+
+.col2-h2 {
+  padding-top: 20px;
+  font-size: 28px;
+  color: #e5bf4a;
+  font-weight: bolder;
+  text-align: center;
+}
+.col2-imgs,
+.col3-imgs,
+.col4-imgs {
+  padding-top: 60px;
+}
+
+.below-bar {
+  padding-top: 30px;
+  margin: 0;
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 90px 50px;
+}
+.row {
+  margin: 0;
+  padding: 0px;
+}
+
+.arrow-footer {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.call-footer {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.footer-items {
+  list-style: none;
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.logo-h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #e5bf4a;
+  font-family: "Dancing Script", sans-serif;
+  text-align: center;
+}
+
+.logo-para {
+  padding-top: 7px;
+
+  font-family: "Jost", sans-serif !important;
+  color: white;
+  text-align: center;
+}
+.follow-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.follow-page a {
+  color: #ffff;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.follow-page a:hover {
+  color: #e5bf4a;
+}
+.column-1-footer-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.h4-footer {
+  color: #e5bf4a;
+  text-transform: capitalize;
+
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.h6-para {
+  padding-top: 7px;
+
+  color: white;
+  text-align: center;
+}
+
+.para-footer {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.link-footer {
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 960px) {
+  .media-link,
+  .contact-button {
+    display: none;
+  }
+
+  .logo-head a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .col-heading {
+    color: #e5bf4a;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  /* navbar */
+  .custom-navbar-ui {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white !important;
+    padding: 20px 0;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .nav-link:hover {
+    color: #e5bf4a;
+  }
+
+  .nav-link::before {
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #e5bf4a;
+  }
+
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+
+  .header-heading {
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 38px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0px;
+  }
+  .custom-below-bar {
+    padding-top: 30px;
+  }
+
+  .custom-col-blog {
+    margin: 0;
+    padding: 10px 20px 30px 20px;
+  }
+  .custom-col-category {
+    margin: 0;
+    padding: 10px 20px 0px 20px;
+  }
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-form {
+    text-align: left;
+    padding: 15px;
+    width: 270px;
+    border-radius: 0;
+    font-size: 14px;
+    background-color: black;
+    border: 1px solid white;
+    font-family: "Jost", sans-serif;
+    outline: none;
+    color: white;
+  }
+
+  /* footer */
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+  }
+  .row {
+    margin: 0;
+    padding: 0px;
+  }
+
+  .arrow {
+    padding-top: 20px;
+  }
+
+  .arrow-footer {
+    color: white;
+    padding-bottom: 15px;
+  }
+
+  .call {
+    padding-top: 20px;
+  }
+
+  .call-footer {
+    color: white;
+    padding-bottom: 15px;
+  }
+
+  .footer-items {
+    list-style: none;
+  }
+
+  .logo {
+    padding-bottom: 10px;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .logo-h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #e5bf4a;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .logo-para {
+    padding-top: 7px;
+
+    font-family: "Jost", sans-serif !important;
+    color: white;
+    text-align: center;
+  }
+  .follow-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .follow-page .fab {
+    color: #ffff;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+
+  .follow-page .fab:hover {
+    color: #e5bf4a;
+  }
+  .column-1-footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .h4-footer {
+    color: #e5bf4a;
+    text-transform: capitalize;
+
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .h6-para {
+    padding-top: 7px;
+
+    color: white;
+    text-align: center;
+  }
+
+  .para-footer {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .link-footer {
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .link-footer:hover {
+    text-decoration: underline;
+  }
+}
